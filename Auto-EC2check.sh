@@ -1,10 +1,9 @@
 #!/bin/bash
 
-INSTANCE_ID="i-04a4765fbacb8f06a"
-REGION="us-east-1"
+INSTANCE_ID     ="Your instance id"
+REGION          ="specific region"
 
-# This command retrieves the current state name (e.g., 'running', 'stopped')
-STATUS=$(aws ec2 describe-instances \
+STATUS          =$(aws ec2 describe-instances \
     --instance-ids $INSTANCE_ID \
     --query 'Reservations[0].Instances[0].State.Name' \
     --output text 2>/dev/null) 
