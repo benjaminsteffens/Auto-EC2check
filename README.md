@@ -1,10 +1,10 @@
-## 🚀 EC2 Instance Status Checker and Starter Script
+##  EC2 Instance Status Checker and Starter Script
 
 This simple Bash script checks the operational status of a specific Amazon EC2 instance and automatically attempts to start it if the instance is currently stopped or pending.
 
 ---
 
-## 📋 Prerequisites
+##  Prerequisites
 
 * **AWS CLI Installed:** The Amazon Web Services Command Line Interface (AWS CLI) must be installed on the machine running this script.
 * **AWS CLI Configured:** Your AWS credentials must be configured for the CLI with the necessary permissions to perform the following actions:
@@ -13,7 +13,7 @@ This simple Bash script checks the operational status of a specific Amazon EC2 i
 
 ---
 
-## 🛠️ Setup
+##  Setup
 
 1.  **Save the script:** Save the code into a file named, for example, `start_ec2_instance.sh`.
 2.  **Make it executable:**
@@ -31,7 +31,7 @@ This simple Bash script checks the operational status of a specific Amazon EC2 i
 
 ---
 
-## ⚙️ How to Run
+##  How to Run
 
 Execute the script directly from your terminal:
 
