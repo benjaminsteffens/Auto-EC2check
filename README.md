@@ -2,7 +2,7 @@
 
 *This Bash script provides a simple automation mechanism to check the state of a specific Amazon EC2 instance and automatically start it if its current state is stopped or pending.*
 
-__How It Works__
+## __How It Works__
 
 The script performs the following steps:
 
